@@ -1,0 +1,140 @@
+.styled-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100px;
+  width: 100%;
+}
+
+.title{
+  border: 1px solid;
+  margin: 0;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #009879;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.container{
+  border: 2px solid;
+}
+
+input{
+  width: 100%;
+  border: 0;
+  text-align: center;
+}
+
+.setting-table{
+  text-align:center;
+  width: 90%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 200px;
+  margin-bottom: 0;
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 1px 2px;
+  padding-bottom: 25px;
+}
+
+.setting-table th{
+  background-color: #FCE59A;
+  color: #523D45;
+}
+
+.setting-table sellect{
+  border: 0;
+}
+
+.fcr-setting{
+  margin-bottom: 25px;
+}
+
+/*style-3*/
+.fcr-table{
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width:30px;
+}
+.fcr-table::-webkit-scrollbar-track{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #f5f5f5;
+}
+.fcr-table::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+.fcr-table::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color:#000000;
+}
+.container{
+  /*display: block; */
+  border: 1px solid;
+  border-radius: 10px;
+}
+.title{
+  border-radius: 10px;
+}
+.styled-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+}
+.styled-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+.styled-table tbody tr{
+  background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type{
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row{
+  font-family: bold;
+  color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.fcr-circle::-webkit-scrollbar-track{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #f5f5f5;
+}
+.fcr-circle::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+.fcr-circle::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color:#000000;
+}
+
+.html-css::-webkit-scrollbar-track{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #f5f5f5;
+}
+.html-css::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+.html-css::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color:#000000;
+}

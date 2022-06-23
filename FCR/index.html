@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html class="html-css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>FCR</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="fcr-setting" style="display: none;">
+        <div style="display: flex; justify-content: center;">
+          <h3>FCR 방위판</h3>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+          <table class="setting-table">
+            <thead>
+              <tr>
+                <th>크기</th>
+                <th>표시</th>
+                <th>항적1_색깔</th>
+                <th>항적2_색깔</th>
+                <th>항적3_색깔</th>
+                <th>항적4_색깔</th>
+                <th>표 표시</th>
+                <th>표 위치</th>
+                <th>표시 크기</th>
+                <th>표시 형식</th>
+                <th>항적 개수</th>
+                <th>항적 간격</th>
+                <th>모드</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="azimuth-size">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="100%">100%</option>
+                    <option value="90%">90%</option>
+                    <option value="80%">80%</option>
+                    <option value="70%">70%</option>
+                    <option value="60%">60%</option>
+                    <option value="50%">50%</option>
+                    <option value="40%">40%</option>
+                  </select>
+                </td>
+                <td class="mark-text-type">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="no">시간</option>
+                    <option value="speed"">속도</option>
+                    <option value="direction">방향</option>
+                  </select>
+                </td>
+                <td class="line1-color">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="red" style="color:red;">빨간</option>
+                    <option value="blue" style="color:blue;">파랑</option>
+                    <option value="green" style="color:green;">초록</option>
+                    <option value="greenyellow" style="color:greenyellow;">라임</option>
+                    <option value="pink" style="color:pink;">핑크</option>
+                    <option value="purple" style="color:purple;">자두</option>
+                    <option value="pink" style="color:623A00;">갈색</option>
+                    <option value="#E9BB61" style="color:#E9BB61;">금색</option>
+                  </select>
+                </td>
+                <td class="line2-color">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="red" style="color:red;">빨간</option>
+                    <option value="blue" style="color:blue;">파랑</option>
+                    <option value="green" style="color:green;">초록</option>
+                    <option value="greenyellow" style="color:greenyellow;">라임</option>
+                    <option value="pink" style="color:pink;">핑크</option>
+                    <option value="purple" style="color:purple;">자두</option>
+                    <option value="pink" style="color:623A00;">갈색</option>
+                    <option value="#E9BB61" style="color:#E9BB61;">금색</option>
+                  </select>
+                </td>
+                <td class="line3-color">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="red" style="color:red;">빨간</option>
+                    <option value="blue" style="color:blue;">파랑</option>
+                    <option value="green" style="color:green;">초록</option>
+                    <option value="greenyellow" style="color:greenyellow;">라임</option>
+                    <option value="pink" style="color:pink;">핑크</option>
+                    <option value="purple" style="color:purple;">자두</option>
+                    <option value="pink" style="color:623A00;">갈색</option>
+                    <option value="#E9BB61" style="color:#E9BB61;">금색</option>
+                  </select>
+                </td>
+                <td class="line4-color">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="red" style="color:red;">빨간</option>
+                    <option value="blue" style="color:blue;">파랑</option>
+                    <option value="green" style="color:green;">초록</option>
+                    <option value="greenyellow" style="color:greenyellow;">라임</option>
+                    <option value="pink" style="color:pink;">핑크</option>
+                    <option value="purple" style="color:purple;">자두</option>
+                    <option value="pink" style="color:623A00;">갈색</option>
+                    <option value="#E9BB61" style="color:#E9BB61;">금색</option>
+                  </select>
+                </td>
+                <td><input type="checkbox" class="table-check"></td>
+                <td class="table-position">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="foot">아래</option>
+                    <option value="side">옆</option>
+                  </select>
+                </td>
+                <td class="mark-text-size">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="27">10px</option>
+                    <option value="34">15px</option>
+                    <option value="52">20px</option>
+                  </select>
+                </td>
+                <td class="mark-line-format">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="one">일체형</option>
+                    <option value="branch">가지형</option>
+                  </select>
+                </td>
+                <td class="flight-number">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </td>
+                <td class="line-filter">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="0">없음</option>
+                    <option value="1">1</option>
+                    <option value="0.5">0.5</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </td>
+                <td class="display-format">
+                  <select name="mcategory" id="mcategory" width="100%">
+                    <option value="display">display 용</option>
+                    <option value="pdf">pdf 용</option>
+                  </select>
+                </td>
+              </tr>
+          </table>
+        </div>
+      </div>
+
+      <h3 class="title">자동 항적 추적기</h3>
+
+      <div class="fcr-circle">
+        <div style="display:flex; justify-content:center">
+          <div style="text-align:center; position:relative; width: 100%">
+            <img src="./images/circle.png" alt="" class="circle" width="100%; height:auto">
+            <div class="mark-circle"></div>
+            </img>
+          </div>
+        </div>
+      </div>
+
+      <div class="fcr-table">
+        <div class="table">
+          <table class="styled-table">
+            <thead>
+              <tr>
+                <th>시간</th>
+                <th>방위각x10mil</th>
+                <th>거리 km</th>
+                <th>속도x10m/s</th>
+                <th>방향x100mil</th>
+              </tr>
+            </thead>
+
+            <tbody class="table-inputs">
+              <tr class="row">
+                <td></td>
+                <td><input type="text" class="finput1" id="inputtag"></td>
+                <td><input type="text" class="finput2"></td>
+                <td><input type="text" class="finput3"></td>
+                <td><input type="text" class="finput4"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script/script.js"></script>
+  </body>
+</html>
