@@ -7,8 +7,8 @@
 
 <table align="center" width='100%'>
     <tr>
-        <td colspan=2><img width="1678" alt="스크린샷 2022-10-12 오후 4 58 38" src="https://user-images.githubusercontent.com/59727077/195285268-cdbb9814-c797-42b9-be7a-4dd52e2d958c.png"></td>
-        <td colspan=2><img width="976" alt="스크린샷 2022-10-12 오후 5 00 21" src="https://user-images.githubusercontent.com/59727077/195285287-7d3ac7b4-ff98-4582-8964-bee4184f431e.png"></td>
+        <td colspan=2><img width="50%" alt="스크린샷 2022-10-12 오후 4 58 38" src="https://user-images.githubusercontent.com/59727077/195285268-cdbb9814-c797-42b9-be7a-4dd52e2d958c.png"></td>
+        <td colspan=2><img width="50%" alt="스크린샷 2022-10-12 오후 5 00 21" src="https://user-images.githubusercontent.com/59727077/195285287-7d3ac7b4-ff98-4582-8964-bee4184f431e.png"></td>
     </tr>
 </table>
 
