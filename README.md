@@ -1,7 +1,17 @@
 # FCR
 수신된 항적 위치 데이터를 기반으로 자동으로 항적을 그려주는 브라우저 프로그램입니다.
 
-![fcr](https://user-images.githubusercontent.com/59727077/188308145-da16a32c-4b68-4dae-925b-131b6bdcf3d3.png)
+
+<img width="1678" alt="스크린샷 2022-10-12 오후 4 58 38" src="https://user-images.githubusercontent.com/59727077/195285268-cdbb9814-c797-42b9-be7a-4dd52e2d958c.png">
+<img width="976" alt="스크린샷 2022-10-12 오후 5 00 21" src="https://user-images.githubusercontent.com/59727077/195285287-7d3ac7b4-ff98-4582-8964-bee4184f431e.png">
+
+<table>
+    <tr>
+        <td colspan=2>dj</td>
+        <td colspan=2>gjk</td>
+        <td colspan=2>slk</td>
+    </tr>
+</table>
 
 ### <h2>개발 계기</h2>
 병사가 항적을 직접 보드판에 그리기가 번거로워 자동으로 항적을 그려주는 프로그램 제작을 의뢰를 받아 개발하게 되었습니다. 
