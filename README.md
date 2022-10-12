@@ -9,6 +9,15 @@
     </tr>
 </table>
 
+### Tech Stack
+<div align =center> 
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+</div>
+<br>
+<br>
+
 ### <h2>개발 계기</h2>
 병사가 항적을 직접 보드판에 그리기가 번거로워 자동으로 항적을 그려주는 프로그램 제작을 의뢰를 받아 개발하게 되었습니다. 
 <br><br>
